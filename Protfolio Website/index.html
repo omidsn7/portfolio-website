@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Protfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#Project" onclick="toggleMenu();">Project</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+            <div class="themeSwitch"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="topbar">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <section class="banner" id="banner">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="Pictures/User.jpg">
+                </div>
+                <h3>Omid Sorayaee Nikoo (Alien)</h3>
+                <p>I'm Creative BackEnd And FrontEnd Developer.</p>
+                <a href="Resume Pdf/MyResume.pdf" class="btn">Download My CV (Farsi)</a>
+                <ul class="socialMedia">
+                    <li>
+                        <a href="https://www.facebook.com/omid.sorayaeenikoo/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/omidsn_">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+989212204163">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/om1d.sn/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/om1dsn">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/omid-sorayaee-nikoo-52429321a">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/omidsn7">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+         <!-- About -->
+         <section class="about adjust" id="about">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="textBox">
+                    <p>I'm a Programmer And I Love Camputer And Programming <br><br><br> I'm a Student Of Computer Engineering In Karaj Azad Univercity 
+                    <br><br><br> I'm Programming On C# Language And I Know .NetFrameWork & .Net I Learn And Work About EntityFrameWork & Dapper Orms <br><br>
+                    And I Know Abot Asp.net Core And Mvc Core And Design Patterns Like MVVM / N-Layers / Onion / CQRS / CLEAN 
+                    <br><br><br>I Read A Lot About Programming And Camputer I Like To Advance And Learn New Things. 
+                    <br><br><br>I Can Read And Learn For My Self And I Learn Fast And Easy
+                    <br> <br> I'm Working In Rayavaran Company And Working On Comunication With Labratory Devices And Send And Get
+                    Patients Tests Answer. </p>
+                </div>
+                <div class="imgBx">
+                    <img src="Pictures/Alien2.jpg">
+                </div>
+            </div>
+         </section>
+
+         <!-- Services -->
+         <section class="services adjust" id="services">
+            <div class="title">
+                <h2>My Services</h2>
+                <p>I Can Code In This Platforms And These Are What I Can Do</p>
+            </div>
+            <div class="content">
+                <div class="serviceBox">
+                    <img src="Pictures/c-sharp.png">
+                    <h2>C# Programming</h2>
+                    <p>Doing C# Application Programming</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="Pictures/windows.png">
+                    <h2>Windows Forms</h2>
+                    <p>Working On Windows Form Applocation And I Have Some Projects In This Platform</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="Pictures/web-development.png">
+                    <h2>Web Development</h2>
+                    <p>Can Work On Backend Of Sites With .Net</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="Pictures/web-design.png">
+                    <h2>Web Design</h2>
+                    <p>Can Work On We Design With HTML / CSS / JS / JQuery / Bootstrap</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="Pictures/rest-api.png">
+                    <h2>API</h2>
+                    <p>Can Make APIs</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="Pictures/unity.png">
+                    <h2>Unity</h2>
+                    <p>I Love Working , Playing And Develping On Games I Have Some Little Experience With Unity</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- Projects -->
+         <section class="Project adjust" id="Project">
+            <div class="title">
+                <h2>Recent Work</h2>
+                <p>Some Of My Recent Projects That I'm Working On It.</p>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/LISCamunication.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Camunication With Lab Devices</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/MovieDotNet.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Movie Site With .NET</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/MoviesMVC.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Movie Site With MVC</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/SuperHerosAPI.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Super Heros CRUD API</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/APICalling.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Calling A Comic API</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/WPFCalc.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>WPF Calculater</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/TicTocGame.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Tic Toc Game WPF</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/TrexGame.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Trex Running Game</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/GlowingCube.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Glowing Cube</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/SocialMedia.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Selecting Social Media</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/StepProgress.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Step Progress</h3>
+                    </div>
+                </div>
+                <!-- <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/FirstSiteWithBootStrap.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>My Site With Bootstrap</h3>
+                    </div>
+                </div> -->
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="Project Pics/AdminResponsive.PNG">
+                    </div>
+                    <div class="textBx">
+                        <h3>Admin Dashboard</h3>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Testimonials -->
+         <section class="testimonials adjust" id="testimonials">
+            <div class="title">
+                <h2>Testimonials</h2>
+                <p>Some Of My Recent Projects Customers That Give Me Comments</p>
+            </div>
+            <div class="content">
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="Pictures/spiderman.jpg">
+                    </div>
+                    <p>Dadash Damet Garm Kheili Khob Bood Barname Azash Estefade Kardim O Koli Lezat Bordim
+                        B Omid Roozaye Behtar Sooton e Gang Bia Ye Sar NY Bebinimet Deltangim.
+                    </p>
+                    <h4>Peter Parker</h4>
+                </div>
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="Pictures/baby yoda.jpg">
+                    </div>
+                    <p>Kheili Ziba Va Karbordi Bood UI Va Man Har Moghe Hoselam Sar Mire Miram Proje Hat Ro Mibinam 
+                        Midoni K man Bache Am Va Besyar Asheghe Barname Nevisi Am Va To Olgoye Mani
+                    </p>
+                    <h4>Baby Yoda</h4>
+                </div>
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="Pictures/ironman.jpg">
+                    </div>
+                    <p>Pesar Bad Az In K Thanos O Shekast Dadam Dige Nmitonam Shaba Rahat Bekhabam Kheilia Fekr Mikonan K Man
+                        Mordam Vally Man Hanoz Zendam Age Tonesti 1 Site Mashti Bara Man Bezan (B Peter Chizi Nago).
+                    </p>
+                    <h4>Tony Stark</h4>
+                </div>
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="Pictures/niki karimi.jpg">
+                    </div>
+                    <p>Man Az Bachegi Asheghe Karat Boodam O Donballet Mikardam Kheili Khoshhal Shodam K Didam Az Axe Man Estefade
+                        Kardi Toye Proje Haye Ghablit . Edame Bede .
+                    </p>
+                    <h4>Niki Karimi</h4>
+                </div>
+            </div>
+         </section>
+
+         <!-- Contact -->
+         <section class="contact adjust" id="contact">
+            <div class="title">
+                <h2>Let's Say Hi</h2>
+                <p>Send Me Message If You Want. Thanks.</p>
+            </div>
+            <div class="contactForm">
+                <div class="row">
+                    <input type="text" name="" placeholder="First Name">
+                    <input type="text" name="" placeholder="Last Name">
+                </div>
+                <div class="row">
+                    <input type="text" name="" placeholder="Email Address">
+                    <input type="text" name="" placeholder="Mobile No.">
+                </div>
+                <div class="row2">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="row2">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+         </section>
+         <!-- Copyright Text -->
+         <div class="copyright">
+            <p>Copyright &copy; 2022 Omid Sorayaee. All Right Reserved.</p>
+         </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
